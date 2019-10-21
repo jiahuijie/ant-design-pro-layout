@@ -108,7 +108,7 @@ export default class BaseMenu extends Component<BaseMenuProps> {
     // reset IconFont
     if (iconfontUrl) {
       IconFont = Icon.createFromIconfontCN({
-        scriptUrl: iconfontUrl,
+        scriptUrl: '//at.alicdn.com/t/font_1266539_rg39zyctzhq.js',
       });
     }
     return null;
