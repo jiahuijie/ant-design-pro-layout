@@ -48,7 +48,7 @@ export interface BaseMenuProps
 const { SubMenu } = Menu;
 
 let IconFont = Icon.createFromIconfontCN({
-  scriptUrl: defaultSettings.iconfontUrl,
+  scriptUrl: '//at.alicdn.com/t/font_1266539_rg39zyctzhq.js',
 });
 
 // Allow menu.js config icon as string or ReactNode
